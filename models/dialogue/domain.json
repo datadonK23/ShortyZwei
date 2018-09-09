@@ -1,18 +1,25 @@
 {
   "states": [
     "intent_goodbye",
-    "intent_greet",
-    "intent_mood_affirm",
-    "intent_mood_deny",
-    "intent_mood_great",
-    "intent_mood_unhappy",
+    "intent_greeting",
+    "intent_hours",
+    "intent_mopeds",
+    "intent_opentoday",
+    "intent_payments",
+    "intent_rental",
+    "intent_thanks",
+    "intent_today",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
     "prev_utter_greet",
-    "prev_utter_cheer_up",
-    "prev_utter_did_that_help",
-    "prev_utter_happy",
-    "prev_utter_goodbye"
+    "prev_utter_goodbye",
+    "prev_utter_thanks",
+    "prev_utter_hours",
+    "prev_utter_mopeds",
+    "prev_utter_payments",
+    "prev_utter_opentoday",
+    "prev_utter_rental",
+    "prev_utter_today"
   ]
 }

@@ -1,31 +1,49 @@
 intents:
-  - greet
+  - greeting
   - goodbye
-  - mood_affirm
-  - mood_deny
-  - mood_great
-  - mood_unhappy
+  - thanks
+  - hours
+  - mopeds
+  - payments
+  - opentoday
+  - rental
+  - today
 
 actions:
 - utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
 - utter_goodbye
+- utter_thanks
+- utter_hours
+- utter_mopeds
+- utter_payments
+- utter_opentoday
+- utter_rental
+- utter_today
 
 templates:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great carry on!"
+  - text: "Hi there, how can I help?"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Thanks for showing up!"
+
+  utter_thanks:
+  - text: "Happy to help!"
+
+  utter_hours:
+  - text: "Our hours are 9am-9pm every day"
+
+  utter_mopeds:
+  - text: "We rent Yamaha, Piaggio and Vespa mopeds"
+
+  utter_payments:
+  - text: "We accept VISA, Mastercard and AMEX"
+
+  utter_opentoday:
+  - text: "We're open today from 9am-9pm"
+
+  utter_rental:
+  - text: "Are you looking to rent today or later this week?"
+
+  utter_today:
+  - text: "For rentals today please call 1-800-MYMOPED"

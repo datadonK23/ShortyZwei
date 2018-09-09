@@ -2,28 +2,76 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "greet",
-        "text": "hey"
-      },
-      {
-        "intent": "greet",
-        "text": "hello"
-      },
-      {
-        "intent": "greet",
+        "intent": "greeting",
         "text": "hi"
       },
       {
-        "intent": "greet",
-        "text": "good morning"
+        "intent": "greeting",
+        "text": "hey"
       },
       {
-        "intent": "greet",
-        "text": "good evening"
+        "intent": "greeting",
+        "text": "ho"
       },
       {
-        "intent": "greet",
-        "text": "hey there"
+        "intent": "greeting",
+        "text": "what's up"
+      },
+      {
+        "intent": "greeting",
+        "text": "how are you"
+      },
+      {
+        "intent": "greeting",
+        "text": "is anyone there"
+      },
+      {
+        "intent": "greeting",
+        "text": "hello"
+      },
+      {
+        "intent": "greeting",
+        "text": "good day"
+      },
+      {
+        "intent": "greeting",
+        "text": "yo"
+      },
+      {
+        "intent": "greeting",
+        "text": "hey man"
+      },
+      {
+        "intent": "greeting",
+        "text": "what's going on"
+      },
+      {
+        "intent": "greeting",
+        "text": "what's new"
+      },
+      {
+        "intent": "greeting",
+        "text": "nice to see you"
+      },
+      {
+        "intent": "greeting",
+        "text": "good to see you"
+      },
+      {
+        "intent": "greeting",
+        "text": "long time no see"
+      },
+      {
+        "intent": "greeting",
+        "text": "pleased to meet you"
+      },
+      {
+        "intent": "greeting",
+        "text": "hiya"
+      },
+      {
+        "intent": "greeting",
+        "text": "how do you do"
       },
       {
         "intent": "goodbye",
@@ -31,131 +79,435 @@
       },
       {
         "intent": "goodbye",
-        "text": "goodbye"
+        "text": "bye bye"
       },
       {
         "intent": "goodbye",
-        "text": "see you around"
+        "text": "ciao"
       },
       {
         "intent": "goodbye",
         "text": "see you later"
       },
       {
-        "intent": "mood_affirm",
-        "text": "yes"
+        "intent": "goodbye",
+        "text": "goodbye"
       },
       {
-        "intent": "mood_affirm",
-        "text": "indeed"
+        "intent": "goodbye",
+        "text": "see you"
       },
       {
-        "intent": "mood_affirm",
-        "text": "of course"
+        "intent": "goodbye",
+        "text": "must leave"
       },
       {
-        "intent": "mood_affirm",
-        "text": "that sounds good"
+        "intent": "goodbye",
+        "text": "have a nice day"
       },
       {
-        "intent": "mood_affirm",
-        "text": "correct"
+        "intent": "goodbye",
+        "text": "see you soon"
       },
       {
-        "intent": "mood_deny",
-        "text": "no"
+        "intent": "goodbye",
+        "text": "talk to you later"
       },
       {
-        "intent": "mood_deny",
-        "text": "never"
+        "intent": "goodbye",
+        "text": "i'm off"
       },
       {
-        "intent": "mood_deny",
-        "text": "I don't think so"
+        "intent": "goodbye",
+        "text": "take care"
       },
       {
-        "intent": "mood_deny",
-        "text": "don't like that"
+        "intent": "goodbye",
+        "text": "catch you later"
       },
       {
-        "intent": "mood_deny",
-        "text": "no way"
+        "intent": "goodbye",
+        "text": "i’ve got to get going"
       },
       {
-        "intent": "mood_deny",
-        "text": "not really"
+        "intent": "goodbye",
+        "text": "until next day"
       },
       {
-        "intent": "mood_great",
-        "text": "perfect"
+        "intent": "thanks",
+        "text": "thanks"
       },
       {
-        "intent": "mood_great",
-        "text": "very good"
+        "intent": "thanks",
+        "text": "thank you"
       },
       {
-        "intent": "mood_great",
-        "text": "great"
+        "intent": "thanks",
+        "text": "that's helpful"
       },
       {
-        "intent": "mood_great",
-        "text": "amazing"
+        "intent": "thanks",
+        "text": "perfect, thank you so much"
       },
       {
-        "intent": "mood_great",
-        "text": "wonderful"
+        "intent": "thanks",
+        "text": "thanks a lot"
       },
       {
-        "intent": "mood_great",
-        "text": "I am feeling very good"
+        "intent": "thanks",
+        "text": "thanks a bunch"
       },
       {
-        "intent": "mood_great",
-        "text": "I am great"
+        "intent": "thanks",
+        "text": "i really appreciate it"
       },
       {
-        "intent": "mood_great",
-        "text": "I'm good"
+        "intent": "thanks",
+        "text": "that's very kind"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "sad"
+        "intent": "thanks",
+        "text": "you rock"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "very sad"
+        "intent": "thanks",
+        "text": "ican't thank you enough"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "unhappy"
+        "intent": "thanks",
+        "text": "many thanks"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "bad"
+        "intent": "thanks",
+        "text": "i'm so grateful"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "very bad"
+        "intent": "thanks",
+        "text": "how kind of you"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "awful"
+        "intent": "thanks",
+        "text": "thank you for your attention"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "terrible"
+        "intent": "hours",
+        "text": "what hours are you open"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "not very good"
+        "intent": "hours",
+        "text": "what are your hours"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "extremly sad"
+        "intent": "hours",
+        "text": "when are you open"
       },
       {
-        "intent": "mood_unhappy",
-        "text": "so sad"
+        "intent": "hours",
+        "text": "opening times"
+      },
+      {
+        "intent": "hours",
+        "text": "what time do you close"
+      },
+      {
+        "intent": "hours",
+        "text": "when do you have open"
+      },
+      {
+        "intent": "hours",
+        "text": "what are your opening times"
+      },
+      {
+        "intent": "hours",
+        "text": "when do you close"
+      },
+      {
+        "intent": "hours",
+        "text": "closing times"
+      },
+      {
+        "intent": "hours",
+        "text": "until what time are you open"
+      },
+      {
+        "intent": "hours",
+        "text": "what are your hours of operation"
+      },
+      {
+        "intent": "hours",
+        "text": "what are your store hours"
+      },
+      {
+        "intent": "hours",
+        "text": "wow late are you open"
+      },
+      {
+        "intent": "hours",
+        "text": "opening hours"
+      },
+      {
+        "intent": "mopeds",
+        "text": "which mopeds do you have"
+      },
+      {
+        "intent": "mopeds",
+        "text": "what kinds of mopeds are there"
+      },
+      {
+        "intent": "mopeds",
+        "text": "what do you rent"
+      },
+      {
+        "intent": "mopeds",
+        "text": "which motorbikes do you rent"
+      },
+      {
+        "intent": "mopeds",
+        "text": "which autocyles do you have"
+      },
+      {
+        "intent": "mopeds",
+        "text": "what kinds of motorbikes are there"
+      },
+      {
+        "intent": "mopeds",
+        "text": "what can i rent"
+      },
+      {
+        "intent": "mopeds",
+        "text": "which models do you rent"
+      },
+      {
+        "intent": "mopeds",
+        "text": "which vehicles do you have"
+      },
+      {
+        "intent": "mopeds",
+        "text": "which models can i hire"
+      },
+      {
+        "intent": "mopeds",
+        "text": "which scooter do you rent"
+      },
+      {
+        "intent": "mopeds",
+        "text": "what motor scooters do you have"
+      },
+      {
+        "intent": "mopeds",
+        "text": "what kinds of scooters are there"
+      },
+      {
+        "intent": "payments",
+        "text": "do you take credit cards"
+      },
+      {
+        "intent": "payments",
+        "text": "do you accept Mastercard"
+      },
+      {
+        "intent": "payments",
+        "text": "are you cash only"
+      },
+      {
+        "intent": "payments",
+        "text": "which credit cards do you accept"
+      },
+      {
+        "intent": "payments",
+        "text": "what are the payment options"
+      },
+      {
+        "intent": "payments",
+        "text": "payment options"
+      },
+      {
+        "intent": "payments",
+        "text": "do you accept VISA"
+      },
+      {
+        "intent": "payments",
+        "text": "paying with cash"
+      },
+      {
+        "intent": "payments",
+        "text": "can i pay with cash"
+      },
+      {
+        "intent": "payments",
+        "text": "what are the forms of payment"
+      },
+      {
+        "intent": "payments",
+        "text": "how can I pay"
+      },
+      {
+        "intent": "payments",
+        "text": "what is the payment method"
+      },
+      {
+        "intent": "payments",
+        "text": "which kinds of payment do you accept"
+      },
+      {
+        "intent": "payments",
+        "text": "what is the payment mode"
+      },
+      {
+        "intent": "opentoday",
+        "text": "are you open today"
+      },
+      {
+        "intent": "opentoday",
+        "text": "when do you open today"
+      },
+      {
+        "intent": "opentoday",
+        "text": "at what times are you open today"
+      },
+      {
+        "intent": "opentoday",
+        "text": "what are you opening times today"
+      },
+      {
+        "intent": "opentoday",
+        "text": "opening hours today"
+      },
+      {
+        "intent": "opentoday",
+        "text": "have you still open"
+      },
+      {
+        "intent": "opentoday",
+        "text": "do you have currently open"
+      },
+      {
+        "intent": "opentoday",
+        "text": "have you open at present-day"
+      },
+      {
+        "intent": "opentoday",
+        "text": "are you currently open"
+      },
+      {
+        "intent": "opentoday",
+        "text": "are you closed today"
+      },
+      {
+        "intent": "opentoday",
+        "text": "is your store open today"
+      },
+      {
+        "intent": "opentoday",
+        "text": "can i come immediately to your store"
+      },
+      {
+        "intent": "opentoday",
+        "text": "what times is the store open today"
+      },
+      {
+        "intent": "opentoday",
+        "text": "opening hours today"
+      },
+      {
+        "intent": "rental",
+        "text": "can we rent a moped"
+      },
+      {
+        "intent": "rental",
+        "text": "i'd like to rent a moped"
+      },
+      {
+        "intent": "rental",
+        "text": "how does this work"
+      },
+      {
+        "intent": "rental",
+        "text": "i wanna rent a moped"
+      },
+      {
+        "intent": "rental",
+        "text": "how can i rent a moped"
+      },
+      {
+        "intent": "rental",
+        "text": "let me rent a moped"
+      },
+      {
+        "intent": "rental",
+        "text": "i wanna rent"
+      },
+      {
+        "intent": "rental",
+        "text": "give me a moped"
+      },
+      {
+        "intent": "rental",
+        "text": "i wanna rent a vehicle"
+      },
+      {
+        "intent": "rental",
+        "text": "let's do this"
+      },
+      {
+        "intent": "rental",
+        "text": "yes, i'm in"
+      },
+      {
+        "intent": "rental",
+        "text": "i want that scooter"
+      },
+      {
+        "intent": "today",
+        "text": "today"
+      },
+      {
+        "intent": "today",
+        "text": "rent today"
+      },
+      {
+        "intent": "today",
+        "text": "i want to rent today"
+      },
+      {
+        "intent": "today",
+        "text": "i wanna rent now"
+      },
+      {
+        "intent": "today",
+        "text": "resent-day"
+      },
+      {
+        "intent": "today",
+        "text": "rent present-day"
+      },
+      {
+        "intent": "today",
+        "text": "immediately"
+      },
+      {
+        "intent": "today",
+        "text": "renting immediate"
+      },
+      {
+        "intent": "today",
+        "text": "i wanna rent directly"
+      },
+      {
+        "intent": "today",
+        "text": "rent promptly"
+      },
+      {
+        "intent": "today",
+        "text": "rent without delay"
+      },
+      {
+        "intent": "today",
+        "text": "rent from now on"
+      },
+      {
+        "intent": "today",
+        "text": "recent rent"
       }
     ],
     "regex_features": [],
