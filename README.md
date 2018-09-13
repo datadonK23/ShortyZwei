@@ -2,7 +2,8 @@
 Simple Chatbot using RASA Stack
 
 ## Usage
-FIXME
+Create a conda environment from `environment.yml`, activate it and run 
+`python main.py`.
 
 ## License
 Apache License, Version 2.0
